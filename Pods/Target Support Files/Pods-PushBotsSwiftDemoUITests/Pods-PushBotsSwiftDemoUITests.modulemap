@@ -1,0 +1,6 @@
+framework module Pods_PushBotsSwiftDemoUITests {
+  umbrella header "Pods-PushBotsSwiftDemoUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -14,6 +14,9 @@
 		423731561E1E9AB700EF8559 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 423731541E1E9AB700EF8559 /* LaunchScreen.storyboard */; };
 		423731611E1E9AB800EF8559 /* PushBotsSwiftDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 423731601E1E9AB800EF8559 /* PushBotsSwiftDemoTests.swift */; };
 		4237316C1E1E9AB800EF8559 /* PushBotsSwiftDemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4237316B1E1E9AB800EF8559 /* PushBotsSwiftDemoUITests.swift */; };
+		70DD0290231835C89EB74FD1 /* Pods_PushBotsSwiftDemoUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1BB3ADD22C24E28A916B3B52 /* Pods_PushBotsSwiftDemoUITests.framework */; };
+		B62244C4AF49CBBB8C095F50 /* Pods_PushBotsSwiftDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18088B5FC90858AC3291CC90 /* Pods_PushBotsSwiftDemo.framework */; };
+		CFB7AC64A6C52BDF572F868D /* Pods_PushBotsSwiftDemoTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 046E174487814E70DD51E8D4 /* Pods_PushBotsSwiftDemoTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +37,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		046E174487814E70DD51E8D4 /* Pods_PushBotsSwiftDemoTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PushBotsSwiftDemoTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		18088B5FC90858AC3291CC90 /* Pods_PushBotsSwiftDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PushBotsSwiftDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1BB3ADD22C24E28A916B3B52 /* Pods_PushBotsSwiftDemoUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PushBotsSwiftDemoUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		420C99C81E223B04008A811C /* PushBotsSwiftDemo.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = PushBotsSwiftDemo.entitlements; sourceTree = "<group>"; };
 		423731481E1E9AB700EF8559 /* PushBotsSwiftDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PushBotsSwiftDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4237314B1E1E9AB700EF8559 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4237314D1E1E9AB700EF8559 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +54,13 @@
 		423731671E1E9AB800EF8559 /* PushBotsSwiftDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PushBotsSwiftDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4237316B1E1E9AB800EF8559 /* PushBotsSwiftDemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PushBotsSwiftDemoUITests.swift; sourceTree = "<group>"; };
 		4237316D1E1E9AB800EF8559 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		423731791E1E9FD300EF8559 /* PushBotsSwiftDemo-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "PushBotsSwiftDemo-Bridging-Header.h"; sourceTree = SOURCE_ROOT; };
+		4E4E3650153A9DE036B98D0D /* Pods-PushBotsSwiftDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PushBotsSwiftDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PushBotsSwiftDemo/Pods-PushBotsSwiftDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		67A6012213DAB4CA087D11F8 /* Pods-PushBotsSwiftDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PushBotsSwiftDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-PushBotsSwiftDemo/Pods-PushBotsSwiftDemo.release.xcconfig"; sourceTree = "<group>"; };
+		92053AB6DC5C6AB996B79259 /* Pods-PushBotsSwiftDemoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PushBotsSwiftDemoTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-PushBotsSwiftDemoTests/Pods-PushBotsSwiftDemoTests.release.xcconfig"; sourceTree = "<group>"; };
+		CDACCACE1E231222BABC36D3 /* Pods-PushBotsSwiftDemoUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PushBotsSwiftDemoUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PushBotsSwiftDemoUITests/Pods-PushBotsSwiftDemoUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		E4E43B26D455F42080ACFA85 /* Pods-PushBotsSwiftDemoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PushBotsSwiftDemoTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PushBotsSwiftDemoTests/Pods-PushBotsSwiftDemoTests.debug.xcconfig"; sourceTree = "<group>"; };
+		FBD4169F9E1897C3B73E57B6 /* Pods-PushBotsSwiftDemoUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PushBotsSwiftDemoUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-PushBotsSwiftDemoUITests/Pods-PushBotsSwiftDemoUITests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +68,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B62244C4AF49CBBB8C095F50 /* Pods_PushBotsSwiftDemo.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +76,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CFB7AC64A6C52BDF572F868D /* Pods_PushBotsSwiftDemoTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,6 +84,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				70DD0290231835C89EB74FD1 /* Pods_PushBotsSwiftDemoUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +98,8 @@
 				4237315F1E1E9AB800EF8559 /* PushBotsSwiftDemoTests */,
 				4237316A1E1E9AB800EF8559 /* PushBotsSwiftDemoUITests */,
 				423731491E1E9AB700EF8559 /* Products */,
+				BAA1940A064E25BD55A03199 /* Pods */,
+				689A59DE1A1691CFBDA58775 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -97,12 +116,14 @@
 		4237314A1E1E9AB700EF8559 /* PushBotsSwiftDemo */ = {
 			isa = PBXGroup;
 			children = (
+				420C99C81E223B04008A811C /* PushBotsSwiftDemo.entitlements */,
 				4237314B1E1E9AB700EF8559 /* AppDelegate.swift */,
 				4237314D1E1E9AB700EF8559 /* ViewController.swift */,
 				4237314F1E1E9AB700EF8559 /* Main.storyboard */,
 				423731521E1E9AB700EF8559 /* Assets.xcassets */,
 				423731541E1E9AB700EF8559 /* LaunchScreen.storyboard */,
 				423731571E1E9AB700EF8559 /* Info.plist */,
+				423731791E1E9FD300EF8559 /* PushBotsSwiftDemo-Bridging-Header.h */,
 			);
 			path = PushBotsSwiftDemo;
 			sourceTree = "<group>";
@@ -125,6 +146,29 @@
 			path = PushBotsSwiftDemoUITests;
 			sourceTree = "<group>";
 		};
+		689A59DE1A1691CFBDA58775 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				18088B5FC90858AC3291CC90 /* Pods_PushBotsSwiftDemo.framework */,
+				046E174487814E70DD51E8D4 /* Pods_PushBotsSwiftDemoTests.framework */,
+				1BB3ADD22C24E28A916B3B52 /* Pods_PushBotsSwiftDemoUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BAA1940A064E25BD55A03199 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4E4E3650153A9DE036B98D0D /* Pods-PushBotsSwiftDemo.debug.xcconfig */,
+				67A6012213DAB4CA087D11F8 /* Pods-PushBotsSwiftDemo.release.xcconfig */,
+				E4E43B26D455F42080ACFA85 /* Pods-PushBotsSwiftDemoTests.debug.xcconfig */,
+				92053AB6DC5C6AB996B79259 /* Pods-PushBotsSwiftDemoTests.release.xcconfig */,
+				CDACCACE1E231222BABC36D3 /* Pods-PushBotsSwiftDemoUITests.debug.xcconfig */,
+				FBD4169F9E1897C3B73E57B6 /* Pods-PushBotsSwiftDemoUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +176,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 423731701E1E9AB800EF8559 /* Build configuration list for PBXNativeTarget "PushBotsSwiftDemo" */;
 			buildPhases = (
+				BAD55BC93257D15E144BD220 /* [CP] Check Pods Manifest.lock */,
 				423731441E1E9AB700EF8559 /* Sources */,
 				423731451E1E9AB700EF8559 /* Frameworks */,
 				423731461E1E9AB700EF8559 /* Resources */,
+				2AA5A508E0CF02DEEA4FDCFD /* [CP] Embed Pods Frameworks */,
+				7890499DCCE42DE9948A2E34 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -149,9 +196,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 423731731E1E9AB800EF8559 /* Build configuration list for PBXNativeTarget "PushBotsSwiftDemoTests" */;
 			buildPhases = (
+				8CBB1B348DD61CA33666BC47 /* [CP] Check Pods Manifest.lock */,
 				423731581E1E9AB800EF8559 /* Sources */,
 				423731591E1E9AB800EF8559 /* Frameworks */,
 				4237315A1E1E9AB800EF8559 /* Resources */,
+				7F373E7C72B7284465870F63 /* [CP] Embed Pods Frameworks */,
+				07903DD331273AB56BFD8B37 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -167,9 +217,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 423731761E1E9AB800EF8559 /* Build configuration list for PBXNativeTarget "PushBotsSwiftDemoUITests" */;
 			buildPhases = (
+				4CDF4EDEB50180592C56228F /* [CP] Check Pods Manifest.lock */,
 				423731631E1E9AB800EF8559 /* Sources */,
 				423731641E1E9AB800EF8559 /* Frameworks */,
 				423731651E1E9AB800EF8559 /* Resources */,
+				375253BBE98AFE32DAE1DA3F /* [CP] Embed Pods Frameworks */,
+				677634650E7FC1A2F79E98AB /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -194,7 +247,16 @@
 					423731471E1E9AB700EF8559 = {
 						CreatedOnToolsVersion = 8.2;
 						DevelopmentTeam = 24VS857ZNA;
+						LastSwiftMigration = 0820;
 						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+							com.apple.Push = {
+								enabled = 1;
+							};
+						};
 					};
 					4237315B1E1E9AB800EF8559 = {
 						CreatedOnToolsVersion = 8.2;
@@ -256,6 +318,144 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		07903DD331273AB56BFD8B37 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PushBotsSwiftDemoTests/Pods-PushBotsSwiftDemoTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2AA5A508E0CF02DEEA4FDCFD /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PushBotsSwiftDemo/Pods-PushBotsSwiftDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		375253BBE98AFE32DAE1DA3F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PushBotsSwiftDemoUITests/Pods-PushBotsSwiftDemoUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4CDF4EDEB50180592C56228F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		677634650E7FC1A2F79E98AB /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PushBotsSwiftDemoUITests/Pods-PushBotsSwiftDemoUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7890499DCCE42DE9948A2E34 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PushBotsSwiftDemo/Pods-PushBotsSwiftDemo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7F373E7C72B7284465870F63 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PushBotsSwiftDemoTests/Pods-PushBotsSwiftDemoTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8CBB1B348DD61CA33666BC47 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		BAD55BC93257D15E144BD220 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		423731441E1E9AB700EF8559 /* Sources */ = {
@@ -411,32 +611,44 @@
 		};
 		423731711E1E9AB800EF8559 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4E4E3650153A9DE036B98D0D /* Pods-PushBotsSwiftDemo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = PushBotsSwiftDemo/PushBotsSwiftDemo.entitlements;
 				DEVELOPMENT_TEAM = 24VS857ZNA;
 				INFOPLIST_FILE = PushBotsSwiftDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.pushbots.PushBotsSwiftDemo;
+				PRODUCT_BUNDLE_IDENTIFIER = com.pushbots.swiftdemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "PushBotsSwiftDemo-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
 		423731721E1E9AB800EF8559 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 67A6012213DAB4CA087D11F8 /* Pods-PushBotsSwiftDemo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = PushBotsSwiftDemo/PushBotsSwiftDemo.entitlements;
 				DEVELOPMENT_TEAM = 24VS857ZNA;
 				INFOPLIST_FILE = PushBotsSwiftDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.pushbots.PushBotsSwiftDemo;
+				PRODUCT_BUNDLE_IDENTIFIER = com.pushbots.swiftdemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "PushBotsSwiftDemo-Bridging-Header.h";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
 		};
 		423731741E1E9AB800EF8559 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E4E43B26D455F42080ACFA85 /* Pods-PushBotsSwiftDemoTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -452,6 +664,7 @@
 		};
 		423731751E1E9AB800EF8559 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 92053AB6DC5C6AB996B79259 /* Pods-PushBotsSwiftDemoTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -467,6 +680,7 @@
 		};
 		423731771E1E9AB800EF8559 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CDACCACE1E231222BABC36D3 /* Pods-PushBotsSwiftDemoUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				DEVELOPMENT_TEAM = 24VS857ZNA;
@@ -481,6 +695,7 @@
 		};
 		423731781E1E9AB800EF8559 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FBD4169F9E1897C3B73E57B6 /* Pods-PushBotsSwiftDemoUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				DEVELOPMENT_TEAM = 24VS857ZNA;
@@ -512,6 +727,7 @@
 				423731721E1E9AB800EF8559 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		423731731E1E9AB800EF8559 /* Build configuration list for PBXNativeTarget "PushBotsSwiftDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -520,6 +736,7 @@
 				423731751E1E9AB800EF8559 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		423731761E1E9AB800EF8559 /* Build configuration list for PBXNativeTarget "PushBotsSwiftDemoUITests" */ = {
 			isa = XCConfigurationList;
@@ -528,6 +745,7 @@
 				423731781E1E9AB800EF8559 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
